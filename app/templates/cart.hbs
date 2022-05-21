@@ -1,0 +1,23 @@
+<main class="container mt-5">
+  <h1>Shopping Cart</h1>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <LinkTo @route="index"> Home </LinkTo>
+    </li>
+    <li class="breadcrumb-item">Shopping Cart</li>
+  </ol>
+  <section class="w50 ml-auto test-right mb-5">
+    <div class="row">
+      <span class="col">Subtotal</span>
+      <span class="row">{{this.subtotal}}</span>
+    </div>
+    <div class="row">
+      <span class="col">Tax</span>
+      <span class="row">{{this.tax}}</span>
+    </div>
+    <div class="row">
+      <span class="col">Total</span>
+      <span class="row">{{this.total}}</span>
+    </div>
+  </section>
+</main>
